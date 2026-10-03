@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+  .font-cinzel-dec {
+    font-family: 'Cinzel Decorative', serif;
+  }
+  .font-bangers {
+    font-family: 'Bangers', cursive;
+  }
+  .font-comic {
+    font-family: 'Comic Neue', cursive, sans-serif;
+  }
+  .font-bebas {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  .font-typewriter {
+    font-family: 'Special Elite', monospace;
+  }
+  .font-pirata {
+    font-family: 'Pirata One', cursive;
+  }
+}
+
+/* Comic noir textures and filters */
+.noir-halftone {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 0);
+  background-size: 6px 6px;
+}
+
+.noir-vignette {
+  box-shadow: inset 0 0 80px rgba(0, 0, 0, 0.95);
+}
+
+.comic-border {
+  border: 3px solid #000000;
+  box-shadow: 4px 4px 0px #000000;
+}
+
+/* Custom scrollbar for dark comic studio */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #404040;
+}

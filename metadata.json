@@ -1,0 +1,7 @@
+{
+  "name": "Biblical Noir Comic Studio",
+  "description": "Estudio gráfico de novela cinematográfica y cómic noir con contexto bíblico, generación de viñetas con sombreado dramático, diálogos y globos editables, biblioteca tipográfica, organizador de páginas y exportación en alta resolución y PDF.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

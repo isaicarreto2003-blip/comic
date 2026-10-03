@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Allow: /api/feeds/google-merchant.xml
+Allow: /api/feeds/google-merchant.csv
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Google-Shopping
+Allow: /
+
+Sitemap: https://ais-dev-mshq5agdjxlodv75gl2vpx-185112996773.us-east5.run.app/sitemap.xml
